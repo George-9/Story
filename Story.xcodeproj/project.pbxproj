@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E5F49591A790B0D002A5ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5F49581A790B0D002A5ECA /* Foundation.framework */; };
+		5E6450D31A94E9FD00456E5A /* 1424295596_ic_arrow_back_48px-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6450D21A94E9FD00456E5A /* 1424295596_ic_arrow_back_48px-128.png */; };
 		5E6A58791A76AE3F00405C0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A58781A76AE3F00405C0E /* main.m */; };
 		5E6A587C1A76AE3F00405C0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A587B1A76AE3F00405C0E /* AppDelegate.m */; };
 		5E6A587F1A76AE3F00405C0E /* Story.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A587D1A76AE3F00405C0E /* Story.xcdatamodeld */; };
 		5E6A58821A76AE3F00405C0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A58811A76AE3F00405C0E /* ViewController.m */; };
-		5E6A58851A76AE3F00405C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6A58831A76AE3F00405C0E /* Main.storyboard */; };
 		5E6A58871A76AE3F00405C0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6A58861A76AE3F00405C0E /* Images.xcassets */; };
 		5E6A588A1A76AE3F00405C0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6A58881A76AE3F00405C0E /* LaunchScreen.xib */; };
 		5E6A58961A76AE3F00405C0E /* StoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A58951A76AE3F00405C0E /* StoryTests.m */; };
+		5E6A58A11A76AE8200405C0E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6A58A01A76AE8200405C0E /* GameKit.framework */; };
+		5E6A58A31A76AE8C00405C0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6A58A21A76AE8C00405C0E /* CoreGraphics.framework */; };
+		5E6A58A51A76AE9100405C0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6A58A41A76AE9100405C0E /* UIKit.framework */; };
+		5E6A58AC1A76B14000405C0E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A58AB1A76B14000405C0E /* GameViewController.m */; };
+		5E6A58AF1A76B79000405C0E /* GameKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A58AE1A76B79000405C0E /* GameKitHelper.m */; };
+		5E6D72ED1A97A36F00518F8D /* MoreMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D72EC1A97A36F00518F8D /* MoreMenuViewController.m */; };
+		5E6FE6E41A77B42B00FF8EFF /* GameNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6FE6E31A77B42B00FF8EFF /* GameNavigationController.m */; };
+		5E852D0E1A8F99EB0009CEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E852D0C1A8F99EB0009CEDB /* Main.storyboard */; };
+		5E9CA5F91A8E5BA700A6CF64 /* 1423865955_519691-199_CircledPlus-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9CA5F81A8E5BA700A6CF64 /* 1423865955_519691-199_CircledPlus-128.png */; };
+		5EA221341A98D44100B17DE5 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA221331A98D44100B17DE5 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E5F49581A790B0D002A5ECA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E6450D21A94E9FD00456E5A /* 1424295596_ic_arrow_back_48px-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1424295596_ic_arrow_back_48px-128.png"; sourceTree = "<group>"; };
 		5E6A58731A76AE3F00405C0E /* Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6A58771A76AE3F00405C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E6A58781A76AE3F00405C0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,12 +49,26 @@
 		5E6A587E1A76AE3F00405C0E /* Story.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Story.xcdatamodel; sourceTree = "<group>"; };
 		5E6A58801A76AE3F00405C0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5E6A58811A76AE3F00405C0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5E6A58841A76AE3F00405C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E6A58861A76AE3F00405C0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5E6A58891A76AE3F00405C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5E6A588F1A76AE3F00405C0E /* StoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6A58941A76AE3F00405C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E6A58951A76AE3F00405C0E /* StoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryTests.m; sourceTree = "<group>"; };
+		5E6A58A01A76AE8200405C0E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		5E6A58A21A76AE8C00405C0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E6A58A41A76AE9100405C0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E6A58AA1A76B14000405C0E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5E6A58AB1A76B14000405C0E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5E6A58AD1A76B79000405C0E /* GameKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameKitHelper.h; sourceTree = "<group>"; };
+		5E6A58AE1A76B79000405C0E /* GameKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameKitHelper.m; sourceTree = "<group>"; };
+		5E6D72EB1A97A36F00518F8D /* MoreMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreMenuViewController.h; path = ../MoreMenuViewController.h; sourceTree = "<group>"; };
+		5E6D72EC1A97A36F00518F8D /* MoreMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreMenuViewController.m; path = ../MoreMenuViewController.m; sourceTree = "<group>"; };
+		5E6FE6E21A77B42B00FF8EFF /* GameNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameNavigationController.h; sourceTree = "<group>"; };
+		5E6FE6E31A77B42B00FF8EFF /* GameNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameNavigationController.m; sourceTree = "<group>"; };
+		5E852D0D1A8F99EB0009CEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E9CA5F81A8E5BA700A6CF64 /* 1423865955_519691-199_CircledPlus-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1423865955_519691-199_CircledPlus-128.png"; sourceTree = "<group>"; };
+		5EA221321A98D44100B17DE5 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		5EA221331A98D44100B17DE5 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5F49591A790B0D002A5ECA /* Foundation.framework in Frameworks */,
+				5E6A58A51A76AE9100405C0E /* UIKit.framework in Frameworks */,
+				5E6A58A31A76AE8C00405C0E /* CoreGraphics.framework in Frameworks */,
+				5E6A58A11A76AE8200405C0E /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +99,7 @@
 				5E6A58751A76AE3F00405C0E /* Story */,
 				5E6A58921A76AE3F00405C0E /* StoryTests */,
 				5E6A58741A76AE3F00405C0E /* Products */,
+				5E6A589F1A76AE6F00405C0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,7 +119,17 @@
 				5E6A587B1A76AE3F00405C0E /* AppDelegate.m */,
 				5E6A58801A76AE3F00405C0E /* ViewController.h */,
 				5E6A58811A76AE3F00405C0E /* ViewController.m */,
-				5E6A58831A76AE3F00405C0E /* Main.storyboard */,
+				5E852D0C1A8F99EB0009CEDB /* Main.storyboard */,
+				5E6A58AD1A76B79000405C0E /* GameKitHelper.h */,
+				5E6A58AE1A76B79000405C0E /* GameKitHelper.m */,
+				5E6A58AA1A76B14000405C0E /* GameViewController.h */,
+				5E6A58AB1A76B14000405C0E /* GameViewController.m */,
+				5E6D72EB1A97A36F00518F8D /* MoreMenuViewController.h */,
+				5E6D72EC1A97A36F00518F8D /* MoreMenuViewController.m */,
+				5EA221321A98D44100B17DE5 /* AboutViewController.h */,
+				5EA221331A98D44100B17DE5 /* AboutViewController.m */,
+				5E6FE6E21A77B42B00FF8EFF /* GameNavigationController.h */,
+				5E6FE6E31A77B42B00FF8EFF /* GameNavigationController.m */,
 				5E6A58861A76AE3F00405C0E /* Images.xcassets */,
 				5E6A58881A76AE3F00405C0E /* LaunchScreen.xib */,
 				5E6A587D1A76AE3F00405C0E /* Story.xcdatamodeld */,
@@ -99,6 +141,8 @@
 		5E6A58761A76AE3F00405C0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E6450D21A94E9FD00456E5A /* 1424295596_ic_arrow_back_48px-128.png */,
+				5E9CA5F81A8E5BA700A6CF64 /* 1423865955_519691-199_CircledPlus-128.png */,
 				5E6A58771A76AE3F00405C0E /* Info.plist */,
 				5E6A58781A76AE3F00405C0E /* main.m */,
 			);
@@ -120,6 +164,18 @@
 				5E6A58941A76AE3F00405C0E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E6A589F1A76AE6F00405C0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5F49581A790B0D002A5ECA /* Foundation.framework */,
+				5E6A58A41A76AE9100405C0E /* UIKit.framework */,
+				5E6A58A21A76AE8C00405C0E /* CoreGraphics.framework */,
+				5E6A58A01A76AE8200405C0E /* GameKit.framework */,
+			);
+			name = Frameworks;
+			path = Story;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +227,7 @@
 				TargetAttributes = {
 					5E6A58721A76AE3F00405C0E = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7RGB38XGJ2;
 					};
 					5E6A588E1A76AE3F00405C0E = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -202,9 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E6A58851A76AE3F00405C0E /* Main.storyboard in Resources */,
 				5E6A588A1A76AE3F00405C0E /* LaunchScreen.xib in Resources */,
 				5E6A58871A76AE3F00405C0E /* Images.xcassets in Resources */,
+				5E6450D31A94E9FD00456E5A /* 1424295596_ic_arrow_back_48px-128.png in Resources */,
+				5E9CA5F91A8E5BA700A6CF64 /* 1423865955_519691-199_CircledPlus-128.png in Resources */,
+				5E852D0E1A8F99EB0009CEDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA221341A98D44100B17DE5 /* AboutViewController.m in Sources */,
+				5E6A58AF1A76B79000405C0E /* GameKitHelper.m in Sources */,
+				5E6A58AC1A76B14000405C0E /* GameViewController.m in Sources */,
+				5E6D72ED1A97A36F00518F8D /* MoreMenuViewController.m in Sources */,
+				5E6FE6E41A77B42B00FF8EFF /* GameNavigationController.m in Sources */,
 				5E6A587C1A76AE3F00405C0E /* AppDelegate.m in Sources */,
 				5E6A58791A76AE3F00405C0E /* main.m in Sources */,
 				5E6A58821A76AE3F00405C0E /* ViewController.m in Sources */,
@@ -248,20 +312,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5E6A58831A76AE3F00405C0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E6A58841A76AE3F00405C0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5E6A58881A76AE3F00405C0E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5E6A58891A76AE3F00405C0E /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5E852D0C1A8F99EB0009CEDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E852D0D1A8F99EB0009CEDB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,9 +411,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Story/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Story/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -416,6 +488,7 @@
 				5E6A589B1A76AE3F00405C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E6A589C1A76AE3F00405C0E /* Build configuration list for PBXNativeTarget "StoryTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +497,7 @@
 				5E6A589E1A76AE3F00405C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

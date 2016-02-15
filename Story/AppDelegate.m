@@ -3,20 +3,31 @@
 //  Story
 //
 //  Created by George Ashton on 26/01/2015.
-//  Copyright (c) 2015 WolfTechApps. All rights reserved.
+//  Copyright (c) 2015 George Ashton. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "GameKitHelper.h"
+#import "ViewController.h"
 
-@interface AppDelegate ()
-
-@end
+//@interface AppDelegate ()
+//
+//@end
 
 @implementation AppDelegate
+
+@synthesize window = _window;
+@synthesize viewController = _viewController;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+//    self.window.rootViewController = self.viewController;
+//    [self.window makeKeyAndVisible];
+    // [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone]; Hide nav bar in push segue??
+    [[GameKitHelper sharedInstance] authenticateLocalUser];
     return YES;
 }
 
@@ -51,7 +62,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.wolftechapps.Story" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.George Ashton.Story" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
